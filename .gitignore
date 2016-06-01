@@ -1,0 +1,5 @@
+lib/
+bin/
+Loja.userlibraries
+.DS_Store
+.idea/

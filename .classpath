@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JPA 2.0-2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.ancoron.postgresql:org.postgresql.net:9.1.901.jdbc4.1-rc9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.eclipse.persistence:eclipselink:2.6.2"/>
+	<classpathentry kind="output" path="out/production/Loja"/>
+</classpath>
