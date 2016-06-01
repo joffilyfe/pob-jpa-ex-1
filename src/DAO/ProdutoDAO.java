@@ -61,12 +61,12 @@ public class ProdutoDAO {
     public void updatePricePercent(double percent) {
         List<Produto> produtos = all();
 
+        manager.getTransaction().begin();
         for (Produto p : produtos) {
             p.setPreco(p.getPreco() + ( p.getPreco() * (percent/100)));
-            manager.getTransaction().begin();
             manager.merge(p);
-            manager.getTransaction().commit();
         }
+        manager.getTransaction().commit();
     }
 
     public void save() {
